@@ -4,6 +4,7 @@ import { Button, Typography, Grid } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 
 import Header from './header'
+import Content from './content'
 
 const useStyles = makeStyles({
   homeStyle: {
@@ -23,7 +24,7 @@ export default function Home() {
       <Grid item container>
         <Grid item xs={0} sm={2} />
         <Grid item xs={12} sm={8}>
-          This is where the content will be
+          <Content />
         </Grid>
       </Grid>
       <Grid item xs={0} sm={2} />
