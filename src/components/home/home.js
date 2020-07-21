@@ -1,7 +1,9 @@
 import React from 'react'
 import { css } from '@emotion/core'
-import { Button, Typography } from '@material-ui/core'
+import { Button, Typography, Grid } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
+
+import Header from './header'
 
 const useStyles = makeStyles({
   homeStyle: {
@@ -14,13 +16,17 @@ export default function Home() {
   const classes = useStyles()
 
   return (
-    <div>
-      <Typography className={classes.homeStyle} color="primary" variant="h1">
-        Hello From Typography!
-      </Typography>
-      <Button color="secondary" variant="outlined">
-        Click me!
-      </Button>
-    </div>
+    <Grid container direction="column">
+      <Grid item>
+        <Header />
+      </Grid>
+      <Grid item container>
+        <Grid item xs={0} sm={2} />
+        <Grid item xs={12} sm={8}>
+          This is where the content will be
+        </Grid>
+      </Grid>
+      <Grid item xs={0} sm={2} />
+    </Grid>
   )
 }
