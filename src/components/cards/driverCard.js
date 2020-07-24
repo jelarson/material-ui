@@ -39,7 +39,7 @@ export default function DriverCard(props) {
         title={title}
         subheader={subtitle}
       />
-      <CardMedia style={{ height: '100px' }} image={imgSrc} />
+      <CardMedia style={{ height: '250px' }} image={imgSrc} />
       <CardContent>
         <Typography variant="body2" component="p">
           {description}

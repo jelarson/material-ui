@@ -10,7 +10,7 @@ export default function Content() {
           title="Lewis Hamilton"
           subtitle="Mercedes"
           avatarSrc="https://www.formula1.com/content/dam/fom-website/flags/United%20Kingdom.jpg.transform/2col/image.jpg"
-          description="Lewis Hamilton always wins!"
+          description="Lewis Hamilton always wins! Well... Most of the time."
           imgSrc="https://www.formula1.com/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png.transform/2col/image.png"
         />
       </Grid>
@@ -28,7 +28,7 @@ export default function Content() {
           title="Max Verstappen"
           subtitle="Red Bull"
           avatarSrc="https://www.formula1.com/content/dam/fom-website/flags/Netherlands.jpg.transform/2col/image.jpg"
-          description="Max is Red Bull's best driver."
+          description="Max is Red Bull's best and most experienced driver."
           imgSrc="https://www.formula1.com/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png.transform/2col/image.png"
         />
       </Grid>
